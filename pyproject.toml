@@ -1,0 +1,13 @@
+[project]
+name = "google-search-playwright"
+version = "0.1.0"
+description = "Automated Google search CLI using Playwright"
+authors = [{name = "Example Author"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.43.0",
+]
+
+[project.scripts]
+google-search-cli = "main:main"
